@@ -12,7 +12,6 @@ def show_score():
         print(f'The current high score is: '
               f' {min(attempts_list)} attempts')
 
-
 def start_game():
     attempts = 0
 	# định nghĩa số lần thử
@@ -62,7 +61,6 @@ def start_game():
         except ValueError as err:
             print('Oh no!, that is not right. Please try again...')
             print(err)
-
 
 if __name__ == '__main__':
     start_game()
